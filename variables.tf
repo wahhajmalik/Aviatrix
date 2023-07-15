@@ -1,23 +1,23 @@
 variable "username" {
   type        = string
   description = "Aviatrix Controller's Username"
-  default     = ""
+  default     = "admin"
  }
 
  variable password {
   description = "Aviatrix Controller's Password"
-  default = ""
+  default = "Ashar123$"
  }
 
  variable "controller_ip" {
   description = "Aviatrix Controller's IP Address"
-  default = ""
+  default = "44.208.63.176"
  }
 
 variable "aws_account_name" {
   type        = string
   description = "AWS Account Name"
-  default = ""
+  default = "avx-selfervice"
 }
 
 variable "aws_region" {
