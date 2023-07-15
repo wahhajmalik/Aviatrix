@@ -29,3 +29,8 @@ variable "firenet_vpc_name" {
   description = "Transit FireNet VPC Name"
   default     = "AWSVPCTEST"
 }
+
+variable "transit_firenet_cidr" {
+  description = "Transit FireNet CIDR"
+  default     = "10.11.0.0/16"
+}
