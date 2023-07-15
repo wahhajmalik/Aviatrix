@@ -3,7 +3,7 @@ terraform {
 required_providers {
 aviatrix = {
 source = "AviatrixSystems/aviatrix"
-version = "2.20.0"
+version = "3.0.0"
 }
 }
 }
@@ -19,7 +19,6 @@ provider "aviatrix" {
 controller_ip = var.controller_ip
 username = var.username
 password = var.password
-version = "3.0.0"
 }
 
 //VPC SECTION
