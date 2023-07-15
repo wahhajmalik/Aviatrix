@@ -19,6 +19,7 @@ provider "aviatrix" {
 controller_ip = var.controller_ip
 username = var.username
 password = var.password
+version = "3.1.0"
 }
 
 //VPC SECTION
