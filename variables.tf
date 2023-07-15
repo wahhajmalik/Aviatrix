@@ -24,3 +24,8 @@ variable "aws_region" {
   description = "Pick AWS Region. Default is Oregon"
   default     = "us-west-2"
 }
+
+variable "firenet_vpc_name" {
+  description = "Transit FireNet VPC Name"
+  default     = "AWSVPCTEST"
+}
