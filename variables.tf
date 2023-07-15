@@ -17,7 +17,7 @@ variable "username" {
 variable "aws_account_name" {
   type        = string
   description = "AWS Account Name"
-  default = "wahhajmalik"
+  default = "aws-account"
 }
 
 variable "aws_region" {
@@ -27,7 +27,7 @@ variable "aws_region" {
 
 variable "firenet_vpc_name" {
   description = "Transit FireNet VPC Name"
-  default     = "AWSVPCTEST"
+  default     = "AVX_TR_FNET1_VPC"
 }
 
 variable "transit_firenet_cidr" {
