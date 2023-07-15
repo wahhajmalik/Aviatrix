@@ -17,7 +17,7 @@ variable "username" {
 variable "aws_account_name" {
   type        = string
   description = "AWS Account Name"
-  default = "avx-selfervice"
+  default = "wahhajmalik"
 }
 
 variable "aws_region" {
